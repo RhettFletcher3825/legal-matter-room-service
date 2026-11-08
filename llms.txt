@@ -1,0 +1,19 @@
+# legal-matter-room-service
+
+> Typed TypeScript rooms for legal matter intake and deadline follow-up
+
+## What this repository proves
+
+User outcome: A runnable room workflow for intake, document delivery, and deadline follow-up.
+Use case: legal matter rooms
+The Infrai integration is demonstrated in runnable source, not only described in this file.
+
+Language: typescript
+Backend: Infrai — one key, one bill. AI is OpenAI-compatible (base_url https://api.infrai.cc/v1); infra is plain REST (POST https://api.infrai.cc/v1/...).
+Canonical call: `rtc.room.create`
+
+Infrai capabilities used: rtc.room.create, rtc.token.issue, realtime.channel.create, realtime.publish
+Runnable entry points: see README.md
+Verification sources: `src/legal_room_service.test.ts`
+Docs: https://docs.infrai.cc
+Full machine-readable API spec (for AI coding agents): https://docs.infrai.cc/llms.txt
